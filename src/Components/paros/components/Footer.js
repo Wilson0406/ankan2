@@ -54,7 +54,7 @@ function footer() {
             <i className="fa-brands fa-telegram insta"></i>
             <i className="fa-brands fa-twitter insta"></i>
             <i className="fa-brands fa-youtube insta"></i>
-            <i className="fa-brands fa-youtube insta"></i>
+            
           </div>
         </div>
       </div>

@@ -1,14 +1,14 @@
 .footer {
     background-color: rgb(192, 190, 190);
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     color: white;
     height: 200px;
-    margin-top:30vh;
-   
-   
+    margin-top: 31vh;
+
+
 
 }
 
@@ -19,7 +19,7 @@
     border: none;
     background-color: rgb(192, 190, 190);
     height: 20%;
-   
+
 
 }
 
@@ -30,7 +30,7 @@
     border: none;
     background-color: rgb(192, 190, 190);
     height: 3%;
-  
+
 }
 
 .footerbelow {
@@ -38,7 +38,7 @@
     background-color: rgb(239, 239, 10);
     display: flex;
 
-       
+
 }
 
 .text {
@@ -61,15 +61,22 @@
 
 .image_paros_img {
     width: 200px;
-   
+
 
 }
 
 
-.lowerbutton_div{ top: 90;
-     left: 525;
-      right: 0;
-       bottom: 100;
-        justify-content: 'center';
-         align-items: 'center' 
-        }
+.lowerbutton_div {
+    top: 90;
+    left: 525;
+    right: 0;
+    bottom: 100;
+    justify-content: 'center';
+    align-items: 'center'
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    
+    
+}

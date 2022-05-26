@@ -46,20 +46,20 @@ function footer() {
         </p>
         <div className='flex' style={{ position: 'relative', left: 20 }}>
           <p style={{ position: 'relative', top: 15, left: 450, right: -200, bottom: 200, justifyContent: 'center', alignItems: 'center', fontSize: 10 }}> <b>FollowUs</b></p>
-          <div className='icons' style={{ position: 'relative', left: 280 , top:-8 }}>
+          <div className='icons' style={{ position: 'relative', left: 280, top: -8 }}>
 
-            <i className="fa-brands fa-facebook insta"></i>
-            <i className="fa-brands fa-instagram-square insta" ></i>
-            <i className="fa-brands fa-linkedin insta"></i>
-            <i className="fa-brands fa-telegram insta"></i>
-            <i className="fa-brands fa-twitter insta"></i>
-            <i className="fa-brands fa-youtube insta"></i>
-            
+              <a href="https://www.facebook.com/theautring" target="_blank"><i className="fa-brands fa-facebook insta"></i> </a>
+              <a href="https://www.instagram.com/theautring/" target="_blank"><i className="fa-brands fa-instagram-square insta" ></i> </a>
+              <a href="https://www.linkedin.com/company/theautring/" target="_blank"><i className="fa-brands fa-linkedin insta"></i> </a>
+              <a href="https://t.me/theautring" target="_blank"><i className="fa-brands fa-telegram insta"></i> </a>
+              <a href="https://twitter.com/theautring" target="_blank"><i className="fa-brands fa-twitter insta"></i> </a>
+              <a href="https://www.youtube.com/c/TheAutring" target="_blank"><i className="fa-brands fa-youtube insta"></i> </a>
+
+              </div>
           </div>
         </div>
       </div>
-    </div>
-  )
+      )
 }
 
-export default footer
+      export default footer

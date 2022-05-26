@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
+
 import SectionLeftCard from './Section/section1/SectionLeftCard';
 import SectionrightCard from './Section/section1/SectionrightCard';
-import Header from './Components/wiliam/Header';
+
 import Card from './Section/section2/Card';
 import Section4_left from './Section/section4/Section4_left';
 import Section4_right from './Section/section4/Section4_right';
@@ -13,8 +13,7 @@ function MainStore(props) {
   return (
     <>
 
-<Header></Header>
-      <Navbar></Navbar>
+
   
       <div className="container" style={{ marginTop: "10px" }}>
       {

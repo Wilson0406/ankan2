@@ -45,8 +45,8 @@ function footer() {
           <b>Copyright ©  2022 Printline Media Pvt. Ltd. All rights reserved.</b>
         </p>
         <div className='flex' style={{ position: 'relative', left: 20 }}>
-          <p style={{ position: 'relative', top: 10, left: 450, right: -200, bottom: 200, justifyContent: 'center', alignItems: 'center', fontSize: 10 }}> <b>FollowUs</b></p>
-          <div className='icons' style={{ position: 'relative', left: 470 , top:-8 }}>
+          <p style={{ position: 'relative', top: 15, left: 450, right: -200, bottom: 200, justifyContent: 'center', alignItems: 'center', fontSize: 10 }}> <b>FollowUs</b></p>
+          <div className='icons' style={{ position: 'relative', left: 280 , top:-8 }}>
 
             <i className="fa-brands fa-facebook insta"></i>
             <i className="fa-brands fa-instagram-square insta" ></i>

@@ -1,18 +1,19 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 function Navbar() {
   return (
     <div className="navbar">
         <ul className="nav-ul">
-            <li className="nav-item"><a href="#"><i className="fa-solid fa-house home-icon"></i></a></li>
-            <li className="nav-item"><a href="#">INDIA</a></li>
-            <li className="nav-item"><a href="#">INTERNATIONAL</a></li>
-            <li className="nav-item"><a href="#">POLITICAL</a></li>
-            <li className="nav-item"><a href="#">GOVERNANCE</a></li>
-            <li className="nav-item"><a href="#">ECONOMY</a></li>
-            <li className="nav-item"><a href="#">SPORTS</a></li>
-            <li className="nav-item"><a href="#">SCIENCE&TECH</a></li>
-            <li className="nav-item"><a href="#">VIDEOS</a></li>
+            
+            
+            <li className="nav-item"><Link className="nav-link" to="/">INDIA</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/international">INTERNATIONAL</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/political">POLITICAL</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/governance">GOVERNANCE</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/economy">ECONOMY</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/sports">SPORTS</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/science">SCIENCE&TECH</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/videos">VIDEOS</Link></li>
             <li className=" nav-item nav-dropdown">
                 <a href="#">GET INVOVED</a>
                 <ul className="dropdown-ul">

@@ -15,15 +15,17 @@ import International from './pages/International';
 import Governance from './pages/Governance';
 import Footer from './Components/paros/components/Footer'
 import Error from './pages/Error';
+import MobileNavbar from './Components/MobileNavbar';
 
 function App() {
 
 
   return (
     <>
-      <Header></Header>
+      {window.screen.width>=450&&<Header></Header>}
       <Router>
-      <Navbar></Navbar>
+      {window.screen.width >= 450 ?<Navbar></Navbar>:<MobileNavbar></MobileNavbar>}
+      
         <Routes>
           <Route exact path='/' element={<India />} />
           <Route exact path='/international' element={<International />} />

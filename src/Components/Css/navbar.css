@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  height: 50px;
+  width: 100vw;
+  background: #F5DB3C;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:-50px;
+}
+.nav-item{
+    margin-right: 33px;
+    padding: 0px 1px;
+    font-weight: 600;
+}
+
+.nav-item a{
+  color: black;
+  text-decoration: none;
+  
+}
+
+.nav-ul  a:hover{
+  color: red;
+  
+}
+
+.home-icon{
+  font-size: 25px;
+  color: black;
+}
+.nav-dropdown{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.dropdown-ul{
+  padding: 0;
+  width: 168px;
+  height: 362px;
+  display: none;
+  position: absolute;
+  left: -30px;
+  top: 28px;
+  list-style: none;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  border-radius: 14px;
+  font-family: "Faustina";
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.dropdown-items {
+  margin: 10px;
+  display: block;
+  
+}
+
+.nav-dropdown:hover .dropdown-ul{
+  display: block;
+}
+
+.dropdown-items a{
+  color: white;
+}
+
+.dropdown-last a{
+  color: #F5DB3C;
+}
+
+.nav-ind{
+display: none;
+}
+.search_btn{
+  font-size: 18px;
+}
+.search_btn:hover{
+    color:red;
+    
+}
+
+.fa-x{
+  display: none;
+}
+
+.nav-ind{
+  display: none;
+}
+
+/* Responsive navbar for mobile devices */
+@media screen and (max-width : 450px){
+  .nav-ul{
+    position: absolute;
+    left: 106px;
+    flex-direction: column;
+    width: 372px;
+    height: 784px;
+    background-color: #F5DB3C;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    display: none;
+
+  }
+  .search_btn{
+    display: none;
+  }
+
+  .nav-ind{
+    display: block;
+  }
+  .ind h3{
+    display: block;
+    background-color:#E62C00;
+    color: white;
+  }
+  .fa-x{
+    display: block;
+    position: absolute;
+    bottom: 750px;
+    left: 280px;
+    cursor: pointer;
+  }
+
+  .nav-ind{
+    display:block;
+    margin-top: 45px;
+  }
+  .nav-item{
+    padding:15px;
+  }
+
+  .nav-dropdown a{
+    margin-left: 15px;
+  }
+}
+
+/* Responsive design for tablets/ipads */
+@media screen and (min-width : 750px) and (max-width : 980px) {
+    .navbar{
+      width: 100vw;
+      font-size: 10px;
+    }
+    .nav-ul{
+      margin-left: -60px;
+    }
+    .nav-item{
+      margin-right: 0px;
+      padding: 0;
+    }
+
+    .search_btn{
+      margin-left: 23px;
+    }
+
+    .dropdown-ul{
+      left: -50px;
+    }
+}
+
+/* responisve design for ipad pro */
+@media screen and (min-width : 980px) and (max-width : 1100px){
+      .navbar{
+        font-size: 12px;
+      }
+
+      .nav-item{
+        margin-right: 10px;
+        padding: 0;
+      }
+  
+      .search_btn{
+        margin-left: 23px;
+      }
+  
+      .dropdown-ul{
+        left: -50px;
+      }
+}

@@ -13,7 +13,7 @@ function India() {
 
 
  
-  const url=`https://newsdata.io/api/1/news?apikey=pub_764452110a19be7fa3c92a2cb11ec4ed2626&category=top&country=in&page=0`
+   const url=`https://newsdata.io/api/1/news?apikey=pub_764452110a19be7fa3c92a2cb11ec4ed2626&category=top&country=in&page=0`
   const url2=`https://newsdata.io/api/1/news?apikey=pub_764452110a19be7fa3c92a2cb11ec4ed2626&category=top&country=in&page=1`
   const url3=`https://newsdata.io/api/1/news?apikey=pub_764452110a19be7fa3c92a2cb11ec4ed2626&category=top&country=in&page=2`
   const url4=`https://newsdata.io/api/1/news?apikey=pub_764452110a19be7fa3c92a2cb11ec4ed2626&category=top&country=in&page=3`

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import def from './def.jpg';
+// import def from './def.jpg';
 
 function SectionLeftCard(props) {
     var st="The news media or news industry are forms of mass media that focus on delivering news to the general public or a target public."
@@ -25,22 +27,18 @@ function SectionLeftCard(props) {
      }
     return (
         
-        <section className='top-heading'  style={{
-
-        }} >
-            <h4 style={{ fontSize: "15px", marginLeft: "6px", display: "inline-block" }}>Top Stories <div style={{ background: "red", display: "inline-block", width: "600px", height: "5px" }}></div></h4>
+        <section className='top-heading'  style={{ marginTop:"2rem", paddingBottom:"2rem", paddingTop:"1rem" }} >
+            <h4 style={{ fontSize: "15px", marginLeft: "10px", display: "inline-block", fontWeight:"600" }}>Top Stories <div style={{ background: "red", display: "inline-block", width: "37rem", height: "3.5px",marginTop:"-15px", marginBottom:"15px", marginLeft:"6.5rem" }}></div></h4>
             {
                      props.data?(
                          <>
             <div className="row">
                 <div className="col-md-6">
                  
-                    <div className='card-left' style={{
-                        width: "22rem", height:"20rem", marginLeft: "8px"
-                    }}>
+                    <div className='card-left' style={{width: "25rem", height:"20rem", marginLeft: "10px"}}>
                         <img src={props.data[0].image_url} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <h6 className="card-title">{isText(props.data[0].title)}</h6>
+                            <h6 className="card-title"style={{ fontWeight:"600", width:"24rem" }}>{isText(props.data[0].title)}</h6>
                             <span ><i className="fa-solid fa-circle-user"></i><span className="logo-text">{isCreator(props.data[0].creator)}</span>
                             </span>
                             <p className="card-text my-2">{isDescription(props.data[0].description)}...</p>
@@ -53,7 +51,7 @@ function SectionLeftCard(props) {
                 <div className="col-md-6">
 
                     <div className=" card-right">
-                        <div className="card-body right-card">
+                        <div className='card-body right-card' >
                             <p>{isText(props.data[1].title)}</p>
                             <span className='card-logo'><i className="fa-solid fa-circle-user"></i> <span className="logo-text">{isCreator(props.data[1].creator)}</span></span>
                         </div>
@@ -90,7 +88,7 @@ function SectionLeftCard(props) {
                 </div>
 
             </div>
-            </>  ):(<></>)
+            </> ):(<></>)
                  }
 
         </section>
@@ -98,4 +96,4 @@ function SectionLeftCard(props) {
     )
 }
 
-export default SectionLeftCard
+export default SectionLeftCard;
